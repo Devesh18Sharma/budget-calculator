@@ -1,0 +1,15 @@
+.budget-calculator {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Inter', 'Helvetica Neue', sans-serif;
+}
+
+@media (min-width: 1024px) {
+  .budget-calculator {
+    flex-direction: row;
+    gap: 40px;
+  }
+}
